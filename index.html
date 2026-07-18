@@ -3,7 +3,18 @@
 <header><h1>🥤 Smoothie Shop</h1><nav>
 <button onclick="showPage('home')">Home</button><button onclick="showPage('products')">Products</button><button onclick="showPage('about')">About</button><button onclick="showPage('contact')">Contact</button>
 </nav></header>
-<section id='home' class='page'><h2>Fresh & Healthy Smoothies</h2><p>Made with real fruits every day.</p></section>
+<section id='home' class='page'>
+  <h2>Fresh & Healthy Smoothies</h2>
+  <p>Made with real fruits every day.</p>
+    <button onclick="showPage('products')">
+                Shop Now
+            </button>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?w=500">
+        </div>
+    </div>
+</section>
 <section id='products' class='page'><h2>Products</h2><div class='products'>
 <div class='card'><h3>🍓 Strawberry</h3><p>$5</p><button onclick="buyProduct('Strawberry')">Buy</button></div>
 <div class='card'><h3>🥭 Mango</h3><p>$6</p><button onclick="buyProduct('Mango')">Buy</button></div>
